@@ -1,0 +1,38 @@
+chain_id: 23
+token:
+  -
+    address: "C111A1qA6SaCdWrXJih1qbdDiZqdDZNDG1uHG"
+    value: 12345
+  -
+    address: "C111A1UntFhAY6W6yLiMZhyq8tARBKdQjhfze"
+    value: 23456
+  -
+    address: "C111A2C7F16nfvkhFCP17vwEWuEZgvat75HEi"
+    value: 34567
+  -
+    address: "C111A2FuSQpw1BXitTFxdsm3YnRVzNLEcUjQL"
+    value: 45678
+coinbase: "C111A3fTt3MbGLyAxWBGXmv3N7NaoFfTmHnBt"
+standby_node:
+  - "C111A3m1y9YnrNCTAcALiwMJKMdLoNSZKBWqW"
+  - "C111A3NvqHQGgwepiNWPJSPrQj8vkznC1B5bS"
+  - "C111A3tcZcaNV5pvkNFiiTX42GWZMLzTx4qRJ"
+  - "C111A3WLviN4XLpihTSZ9yoZ4Bvkd6nxeTk9e"
+  - "C111A3XLAjbCs3vWr5Kd2pvprVLYhmGjaPFBn"
+  - "C111A4asw3FpYqyZcJtFFRDUrqKVrD365uUVJ"
+  - "C111A4eqof2e549neZsrd2XT66gEtDEgiC4vc"
+foundation:
+  address: "C111A4K3D9ubfQ1w7Dp715Y294tsdfj6m1MDc"
+  value: 123456
+founding_team:
+  address: "C111A4nLX9vD8keyTbaxedAcUB2XCeyeaJSWW"
+  value: 123456
+node_deployment:
+  address: "C111A4oYUjQzeY8FqoYpFyVjzgEGgZSHgzXYc"
+  value: 123456
+ecological_construction:
+  address: "C111A4pXn5VMbdmeU7NCGp5gTuziEFvcSYG2w"
+  value: 123456
+founding_community:
+  address: "C111A4v9jmJCoe7VqhRtnuytntR2r5FFwebcs"
+  value: 123456

@@ -1,0 +1,46 @@
+network:
+ seed:
+  - "/ip4/127.0.0.1/tcp/8880/ipfs/12D3KooWSuivaexv9gTrtzzDQMUbAemqnuseEu9CJXmJgV8fAAws"
+ listen:
+  - "0.0.0.0:8880"
+ private_key: "conf/network/key"
+ network_id: 1
+ stream_limits:
+ reserved_stream_limits:
+chain:
+ #datadir: "data"
+ #keydir: "keystore"
+ chain_id: 23
+ coinbase: ""
+ miner: "C111A1DPErDa2HU4PJeVL4XDzf2UVtqQ5pi53"
+ genesis:
+ witnesses:
+  - "C111A1DPErDa2HU4PJeVL4XDzf2UVtqQ5pi53"
+  - "C111A1gyZKMuA7Vukj1VusAL99HDqFx7msZN9"
+  - "C111A1GzwTprb182vEGKegFB4ZJCcna47VbRD"
+  - "C111A1o4NUrSVAqCPRkQLtHVyidFetkLq8vmh"
+log:
+ log_level: "debug"
+ log_file: "logs"
+ log_age: 86400
+rpc:
+  rpc_listen:
+  - "127.0.0.1:8518"
+  http_module:
+  - "admin"
+  http_cors:
+  - "*"
+  http_limits: 128
+#metrics config
+stats:
+ enable_metrics: false
+ influxdb:
+   host: "http://localhost:8052"
+   db: "gamc"
+   user: "admin"
+   password: "admin"
+monitor:
+ pprof:
+  http_listen: "0.0.0.0:8888"
+  cpuprofile: "cpuprofile.tmp"
+  memprofile: "memprofile.tmp"

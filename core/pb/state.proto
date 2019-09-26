@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package corepb;
+
+message ConsensusRoot {
+    int64 timestamp = 1;
+    bytes proposer  = 2;
+    bytes term_root = 3;
+}
